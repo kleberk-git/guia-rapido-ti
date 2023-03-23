@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SCRIPS UTILIZADOS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/estilo_script.css'>
+    <script src='../js/script.js'></script>
+</head>
+<body>
+ 
+<div class="area-total">
+    
+    <div class="centralizar">
+        <div class="texto">
+            <p>Aqui temos os links de acesso rápido</p>
+            <p id="pastas-rede">Para saber o que cada um faz, clique em uma opção da lista e em seguida "Ok"</p>
+        </div>
+        <div class="area-executar">
+            <div class="titulo">
+                <p>Executar</p>
+            </div>
+            <div class="digite-recursos">
+                <p>Digite o nome de um programa, pasta, documento ou <br>recurso da internet e o Windows o abrirá para voçê.</p>
+                <Label>Abrir: </Label>
+                <select id="mapear" onChange="mapear()">
+                    <option></option>
+                    <option value="ABRIR SERVIDOR DE PASTAS EM REDE">\\SSP214-001</option>
+                    <option value="ABRIR SERVIDOR DE IMPRESSORAS EM REDE">\\SSP214-003</option>
+                    <option value="ACESSANDO PASTA EM REDE">\\SSP214-000\PUBLICA$</option>
+                    <option value="ACESSANDO PASTA EM REDE">\\SSP214-000\ARQUIVOS$</option>
+                    <option value="ACESSANDO SERVIÇOS DE INSTALAÇÃO PARA LEITORES DE CARTÕES - PAPERCUT">\\qnap_depin\Manutenção\PaperCut\TCPConvAdminPack108a</option>
+                </select>
+            </div>
+            <div class="botoes">
+                <div class="mover">
+                    <button>OK</button>
+                    <button><a href="../index.html">CANCELAR</a></button>
+                    <button>PROCURAR...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
