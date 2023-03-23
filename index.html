@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Informações TI </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_index.css'>
+    <script src='js/script.js'></script>
+    <script src='js/upgrade.js'></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+</head>
+<body>
+    <div class="titulo-pagina">
+        <h1>Informações TI - GUIA RÁPIDO</h1>
+    </div>
+    <div class="btn-pesquisar">
+        <input id="meuInput" onkeyup="preencherAmarelo()" class="texto" type="text" placeholder="Pesquisar..."/>
+        <button class="btn">Pesquisar</button>
+    </div><br>
+    <hr><br>
+    <div class="box-1">
+        <div id="card-esquerdo">
+            <ol > 
+                <button class="ajuda" onclick="ajuda_1()">?</button>
+                <p >LINK DE REDES</p><br>
+                <li type="square">X1 - OI IP CONNECT CIRCUITO</li>
+                <li type="square">X2 - BRDIGITAL INTERNET</li>
+                <li type="square">X3 - BRDIGITAL DADOS</li>
+                <li type="square">X4 - WIFI</li><br>
+                <a class="zabbix" href="http://redes.fieb.org.br/zabbix.php?action=dashboard.view">ZABBIX - ENTRAR ou</a>
+                <button class="cmd">cmd_</button>
+            </ol>
+        </div>
+        <div class="card-meio">
+            <h2 id="esconder">SESI CAMAÇARI</h2>
+            <h4 id="ajuda">CNPJ: 03.795.086/0011-56</h4>
+            <p id="mudar1"></p>
+            <p id="mudar2"></p>
+            <p id="mudar3"></p>
+            <p id="mudar4"></p>
+            <p id="mudar5"></p>
+        </div>
+        <div id="card-direito">
+            <button class="ajuda" onclick="ajuda_2()">?</button>
+            <p>OUTROS LINK'S</p><br>
+            <a class="zabbix" href="https://10.108.255.254">ACESSAR - SONIC WALL</a>
+            <a class="zabbix" href="http://fbp101-138:9191/admin">ACESSAR - PAPPERCUT</a><br>
+            <a class="zabbix" href="http://10.108.1.100/">ACESSAR - CÂMERAS</a><br>
+            <a class="zabbix" href="https://sesibahia.sharepoint.com/sites/MaisIntranet" target="_blank">ACESSAR - INTRANET</a>       
+        </div>
+    </div><br>
+    <hr><br>
+    <section class="area1">
+    <div class="box-2">
+        <div class="card-bola">
+            <a href="outras_paginas/impressoras.html">IMPRESSORAS</a>
+        </div>
+        <div class="card-bola">
+            <a href="http://10.108.0.230">CENTRAL TELEFÔNICA</a>
+        </div>
+        <div class="card-bola">
+            <a href="http://sistemas/fieb/SGAO/Default">GERAR ASSINATURA OUTLOOK</a>
+        </div>
+        <div class="card-bola">
+            <a href="https://www.fieb.qualycopy.com.br/">INSUMO PARA UNIDADE QUALYCOPY</a>
+        </div>
+        <div class="card-bola">
+            <a href="#" onclick="sistemas_internos()">SISTEMAS INTERNOS</a>
+        </div>
+        <div class="card-bola">
+            <a href="https://sesibahia.sharepoint.com/sites/intranet/GTI/kb/Paginas/Suporte%20GTI%20-%20Base%20de%20Conhecimento.aspx">SENHAS E PERMISSÕES</a>
+        </div>
+        <div class="card-bola">
+            <a href="outras_paginas/scripts.html">SCRIPT'S</a>
+        </div>
+        <div class="painel-chamados">
+        <div class="card-quadrado">
+            <div class="titulo-card">
+              <a href="http://sistemas/fieb/SGC/Modulos/Default" target="_blank"><img src="img/operador_chamado.svg" alt="Abrir chamados" style="width:50%"></a>
+              <h4><b>Abrir chamados</b></h4> 
+              <p>Nenhuma dúvida ficará sem resposta</p> 
+            </div>
+        </div>
+        
+        <div class="card-quadrado">
+            <div class="titulo-card">
+                <img src="img/download.svg" alt="Download" style="width:50%" onclick="downloadFile()">
+              <h4><b>Baixe agora!</b></h4> 
+              <p>Todos os programas utilizados</p> 
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!-- Aqui eu defini meu rodapé-->
+
+    <section class="area2">
+        <footer class="footer-distributed">
+            <div class="footer-right">
+                <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"><img src="img/linkedin.svg" alt="Linkedin" style="width:100%"></a>
+                <a href="#"><img src="img/whatsapp.svg" alt="Whatsapp" style="width:100%"></a>
+            </div>
+            <div class="footer-left">
+
+                <p class="footer-links">
+                    <a class="link-1" href="#">INICIO</a>
+                    <a href="#">COMO FUNCIONA?</a>
+                    <a href="#">CONTATO</a>
+                </p>
+                <p>Desenvolvido por: Kleber Belo &copy; 2022</p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
