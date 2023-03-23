@@ -1,0 +1,96 @@
+
+body{
+    background-image: linear-gradient(to left bottom, #300537, #2b0526);
+    color: #fff;
+}
+
+a{
+    color: blue;
+}
+
+.senha{
+    display: none;
+}
+
+.titulo-pagina{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+hr{
+    width: 100%;
+}
+.centralizar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.online{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    
+}
+.online p{
+    font-size: 14px;
+    margin-left: -7px;
+  
+}
+.tipo-impressora{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    height: 250px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.icone-impressora{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+.sub-titulo{
+    text-align: center;
+    margin: 10px;
+}
+
+.impressoras{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.ajuda{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: red;
+}
+
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
